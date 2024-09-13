@@ -1,4 +1,4 @@
-# [Sponsorname] Audit
+# Kakarot Audit
 
 Audit findings are submitted to this repo.
 
