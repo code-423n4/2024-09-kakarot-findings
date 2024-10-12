@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "ahmedaghadi",
+  "risk": "3",
+  "title": "Opcode `EXP` for large even number can make starkent transaction revert due to running out of steps.",
+  "issueId": 2,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/2"
+}
