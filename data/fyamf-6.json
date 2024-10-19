@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "fyamf",
+  "risk": "2",
+  "title": "Selfdestructing to itself during creation transaction doesn't burn tokens like on Ethereum",
+  "issueId": 6,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/6"
+}
