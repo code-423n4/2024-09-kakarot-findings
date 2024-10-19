@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "fyamf",
+  "risk": "3",
+  "title": "Incorrect state for accounts without code and nonce",
+  "issueId": 10,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/10"
+}
