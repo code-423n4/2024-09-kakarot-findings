@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "fyamf",
+  "risk": "2",
+  "title": "Unauthorized calls to Cairo precompiles cause system panic, providing attack opportunities",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/8"
+}
