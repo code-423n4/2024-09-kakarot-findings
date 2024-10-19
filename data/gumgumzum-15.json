@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "gumgumzum",
+  "risk": "2",
+  "title": "DualVMToken@totalSupply does not account for the high part total_supply ",
+  "issueId": 15,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/15"
+}
