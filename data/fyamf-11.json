@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "fyamf",
+  "risk": "2",
+  "title": "Handling leftover balances during selfdestruct differs from Ethereum",
+  "issueId": 11,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/11"
+}
