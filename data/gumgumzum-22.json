@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "gumgumzum",
+  "risk": "3",
+  "title": "RIPEMD-160 fails when (input length & 63) is greater than 55",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/22"
+}
