@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "ahmedaghadi",
+  "risk": "3",
+  "title": "RIPEMD160 fails if `(length of calldata) % 64` is in the range of 55 to 63",
+  "issueId": 21,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/21"
+}
