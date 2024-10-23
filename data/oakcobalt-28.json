@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "base fee updates implementation deviates from EIP-1559, causing fee change mid-block",
+  "issueId": 28,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/28"
+}
