@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "handle_l1_message may unfairly revert l2 tx with sufficient l1 sender balance, due to vulnerable fee charge implementation",
+  "issueId": 29,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/29"
+}
