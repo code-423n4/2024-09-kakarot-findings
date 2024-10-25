@@ -164,5 +164,39 @@ pub fn load_word(mut len: usize, words: Span<u8>) -> u256 {
 ```
 (https://github.com/kkrt-labs/kakarot-ssj/blob/d4a7873d6f071813165ca7c7adb2f029287d14ca/crates/utils/src/helpers.cairo#L141)
 
-Recommendations:
+**Recommendations:**
 Consider adding check to ensure input len <= words.length and allow return status, when out-of-bound for downstream handling.
+
+### Low-04 Consider not charging l2 EVM gas from `handle_l1_message`
+**Instances(1)**
+L1-L2 messaging in kakarot is based on starknet L1-l2 bridge mechanism(e.g. using starknet cores’ starknetMessaging.sendMessageToL2 function). 
+In the case of L1 to L2 message, [starknet only charge fees on L1](https://docs.starknet.io/architecture-and-concepts/network-architecture/messaging-mechanism/#l1-l2-message-fees), which already includes L2 starknet gas. Because L2 will be invoked by sequencer or starknet os(`@l1handler`).
+
+The problem is current kakarot's l2 implementation of L1 to L2 flow, i.e.handle_l1_message, will try to charge EVM gas on L2 directly from L1sender's l2 balance. This departs from starknet bridge mechanism's behavior where all fees are charged on L1.
+
+A common use case of an L1 sender that doesn't have any L2 balance who wants to send a message to L2 becomes cumbersome when interacting with kakarot's L1 to L2 flow. As a result, any L1sender who wants to send an L2 message to a kakarot evm contract is also required to have sufficient L2 ETH balance to pay on L2. 
+```rust
+//src/kakarot/library.cairo
+    func handle_l1_message{
+        syscall_ptr: felt*,
+        pedersen_ptr: HashBuiltin*,
+        range_check_ptr,
+        bitwise_ptr: BitwiseBuiltin*,
+    }(l1_sender: felt, to_address: felt, value: felt, data_len: felt, data: felt*) -> (
+        model.EVM*, model.State*, felt, felt
+    ) {
+        // TODO: ensure fair gas limits and prices
+        let (val_high, val_low) = split_felt(value);
+        tempvar value_u256 = new Uint256(low=val_low, high=val_high);
+        let to = model.Option(is_some=1, value=to_address);
+        let (access_list) = alloc();
+
+        return eth_call(
+|>          0, l1_sender, to, 2100000000, 1, value_u256, data_len, data, 0, access_list
+        );
+    }
+```
+(https://github.com/kkrt-labs/kakarot/blob/7411a5520e8a00be6f5243a50c160e66ad285563/src/kakarot/library.cairo#L436)
+
+Recommendations:
+Consider adding logics L1KakarotMessaging.sol to charge kakarot EVM gas on L1 as well.
