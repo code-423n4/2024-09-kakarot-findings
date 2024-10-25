@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "RadiantLabs",
+  "risk": "3",
+  "title": "Hints in bytes.cairo function felt_to_bytes_little are under-constrained",
+  "issueId": 39,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/39"
+}
