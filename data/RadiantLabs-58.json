@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "RadiantLabs",
+  "risk": "2",
+  "title": "p256verify precompile charges new account access gas",
+  "issueId": 58,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/58"
+}
