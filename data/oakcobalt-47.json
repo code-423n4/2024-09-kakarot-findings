@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "In handle_l1_message flow, L1 sender with 0 ETH balance might either avoid paying EVM gas, or causing unhandled EVM reverts",
+  "issueId": 47,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/47"
+}
