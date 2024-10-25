@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "RadiantLabs",
+  "risk": "3",
+  "title": "Kakarot precompiles can be used by malicious contracts by delegate-calling whitelisted contracts",
+  "issueId": 38,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/38"
+}
