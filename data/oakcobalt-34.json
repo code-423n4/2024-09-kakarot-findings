@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Transaction revert handling diverges from EVM spec, whenever EVM to Starknet contract call is involved.",
+  "issueId": 34,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/34"
+}
