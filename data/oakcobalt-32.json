@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "Incorrect totalsupply value will be returned due to erroneous return data decode implementation",
+  "issueId": 32,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/32"
+}
