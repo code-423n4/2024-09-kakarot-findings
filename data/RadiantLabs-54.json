@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "RadiantLabs",
+  "risk": "3",
+  "title": "Non-finalized dictionary in RIPEMD160 allows forging of output",
+  "issueId": 54,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/54"
+}
