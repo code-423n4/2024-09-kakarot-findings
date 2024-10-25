@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "RadiantLabs",
+  "risk": "3",
+  "title": "Users can permanently lose funds when L1->L2 messages fail to process",
+  "issueId": 55,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/55"
+}
