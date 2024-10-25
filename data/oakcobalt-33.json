@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "DualVMToken::approve/transfer will always revert when trying to approve amount greater than type(uint128).max due to vulnerable implementation",
+  "issueId": 33,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/33"
+}
