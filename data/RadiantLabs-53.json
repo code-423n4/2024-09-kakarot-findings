@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "RadiantLabs",
+  "risk": "3",
+  "title": "Malicious EVM contracts can trigger RPC-level crashes by reverting after calling DualVmToken",
+  "issueId": 53,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/53"
+}
