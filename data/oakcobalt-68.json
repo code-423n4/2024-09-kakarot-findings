@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "oakcobalt",
+  "risk": "2",
+  "title": "handle_l1_message allows l2 tx to exceeds globally set block limit and diverges from EIP-1559",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/68"
+}
