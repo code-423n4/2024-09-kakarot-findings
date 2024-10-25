@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "RadiantLabs",
+  "risk": "2",
+  "title": "Reentrancy check in account_contract can be easily circumvented",
+  "issueId": 64,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/64"
+}
