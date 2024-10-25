@@ -1,0 +1,8 @@
+{
+  "contest": 438,
+  "handle": "gumgumzum",
+  "risk": "2",
+  "title": "CALL_STIPEND is injected in gas left directly when a call has value",
+  "issueId": 45,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/45"
+}
