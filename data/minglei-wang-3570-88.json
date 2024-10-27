@@ -1,0 +1,10 @@
+{
+  "contest": 438,
+  "handle": "minglei-wang-3570",
+  "risk": "3",
+  "title": "intrinsic gas consumption lack of error handling",
+  "issueId": 88,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/88",
+  "originalIssueId": 120,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-09-kakarot-validation/issues/120"
+}
