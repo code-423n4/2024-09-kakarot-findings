@@ -1,0 +1,10 @@
+{
+  "contest": 438,
+  "handle": "NexusAudits",
+  "risk": "2",
+  "title": "Unchecked Memory Access and Integer Overflow Risks Lead to Arbitrary Memory Corruption",
+  "issueId": 100,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/100",
+  "originalIssueId": 230,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-09-kakarot-validation/issues/230"
+}
