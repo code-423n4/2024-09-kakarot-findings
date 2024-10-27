@@ -1,0 +1,10 @@
+{
+  "contest": 438,
+  "handle": "ulas",
+  "risk": "3",
+  "title": "L1 -> L2 messages do not have a balance check leading to balance overflow",
+  "issueId": 95,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/95",
+  "originalIssueId": 269,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-09-kakarot-validation/issues/269"
+}
