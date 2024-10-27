@@ -1,0 +1,10 @@
+{
+  "contest": 438,
+  "handle": "timatc",
+  "risk": "3",
+  "title": "Underconstrained Hints in load_bytecode Function Allow Bytecode Manipulation",
+  "issueId": 80,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/80",
+  "originalIssueId": 202,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-09-kakarot-validation/issues/202"
+}
