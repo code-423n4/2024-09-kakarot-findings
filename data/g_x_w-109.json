@@ -1,0 +1,10 @@
+{
+  "contest": 438,
+  "handle": "g_x_w",
+  "risk": "3",
+  "title": "Out-of-Bounds Read in `parse_access_list` Function",
+  "issueId": 109,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/109",
+  "originalIssueId": 193,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-09-kakarot-validation/issues/193"
+}
