@@ -1,0 +1,10 @@
+{
+  "contest": 438,
+  "handle": "Rhaydden",
+  "risk": "2",
+  "title": "Incorrect block range check in BLOCKHASH Opcode implementation",
+  "issueId": 130,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/130",
+  "originalIssueId": 69,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-09-kakarot-validation/issues/69"
+}
