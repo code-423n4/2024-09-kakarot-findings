@@ -1,0 +1,10 @@
+{
+  "contest": 438,
+  "handle": "0xastronatey",
+  "risk": "3",
+  "title": "Unauthorized Contracts Can Bypass Precompile Authorization via delegatecall in Kakarot zkEVM",
+  "issueId": 124,
+  "issueUrl": "https://github.com/code-423n4/2024-09-kakarot-findings/issues/124",
+  "originalIssueId": 59,
+  "originalIssueUrl": "https://github.com/code-423n4/2024-09-kakarot-validation/issues/59"
+}
